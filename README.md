@@ -22,7 +22,7 @@ composer require growats/ok-nic-login-security
 ##Configuration
 Publish config file:
  
-php artisan vendor:publish --provider="Growats\OkNicOwaspSecurity\OkNicOwaspSecurityServiceProvider"
+php artisan vendor:publish --provider="Growats\OkNicLoginSecurity\OkNicLoginSecurityServiceProvider"
 Configure settings in .env file for security keys, etc.
 
 
