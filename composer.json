@@ -1,0 +1,25 @@
+{
+    "name": "growats/ok-nic-login-security",
+    "description": "A Laravel package for advanced Login security practices with OTP, logging, role management, encryption, backups, and SEO settings.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shyamendra Kushwaha",
+            "email": "shyamendrakushwaha1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0",
+        "barryvdh/laravel-debugbar": "^3.6",
+        "spatie/laravel-permission": "^4.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Growats\\OkNicLoginSecurity\\": "src/"
+        }
+    }
+}
